@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+//Objective 1
 public class guessinggame{
     public static void main(String[]args) {
         System.out.println ("What is your name?");
@@ -20,4 +21,6 @@ public class guessinggame{
         System.out.println(""+name+", you guessed correctly. The number was " + num + ".");
         System.out.println ("You guessed "+guesses+" time(s).");
     }
+
 }
+
